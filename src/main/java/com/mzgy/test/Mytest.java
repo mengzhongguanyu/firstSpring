@@ -18,6 +18,6 @@ public class Mytest {
     private Comport comport;
     @Test
     public void test1(){
-        System.out.println(comport);
+        comport.hello();
     }
 }
